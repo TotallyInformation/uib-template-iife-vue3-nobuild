@@ -1,0 +1,38 @@
+{
+  "name": "iife-vue3-nobuild",
+  "version": "7.3.0",
+  "private": true,
+  "description": "Simple Vue3 template using the uibuilder IIFE client library.",
+  "browser": "./src/index.js",
+  "scripts": {
+    "build": "echo \"Error: no build process specified\" && exit 1",
+    "lint": "npx eslint src --ext .js,.vue"
+  },
+  "keywords": [
+    "uibuilder",
+    "node-red",
+    "node-red-contrib-uibuilder"
+  ],
+  "author": "Julian Knight (Totally Information)",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/TotallyInformation/node-red-contrib-uibuilder",
+  "bugs": "https://github.com/TotallyInformation/node-red-contrib-uibuilder/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TotallyInformation/node-red-contrib-uibuilder.git"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "maintained versions",
+    "last 2 versions",
+    "not dead",
+    "not ie > 0"
+  ],
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.27.0",
+    "eslint": "^9.27.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-vue": "^10.1.0"
+  }
+}
