@@ -1,4 +1,4 @@
-# uibuilder Template: Vue v3 with uibuilder IIFE client (no build)
+# UIBUILDER for Node-RED Template: Vue v3 with uibuilder IIFE client (no build)
 
 Very simple Vue v3+ template for UIBUILDER for Node-RED that does not require a build step. Uses the IIFE uib client library.
 

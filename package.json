@@ -1,13 +1,10 @@
 {
   "name": "iife-vue3-nobuild",
-  "version": "7.3.0",
+  "version": "2025-05-27",
   "private": true,
   "description": "Simple Vue3 template using the uibuilder IIFE client library.",
   "browser": "./src/index.js",
-  "scripts": {
-    "build": "echo \"Error: no build process specified\" && exit 1",
-    "lint": "npx eslint src --ext .js,.vue"
-  },
+  "scripts": {},
   "keywords": [
     "uibuilder",
     "node-red",
@@ -28,11 +25,5 @@
     "not dead",
     "not ie > 0"
   ],
-  "devDependencies": {
-    "@eslint/eslintrc": "^3.3.1",
-    "@eslint/js": "^9.27.0",
-    "eslint": "^9.27.0",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-vue": "^10.1.0"
-  }
+  "devDependencies": {}
 }
